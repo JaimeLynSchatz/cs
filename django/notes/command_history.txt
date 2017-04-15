@@ -1,0 +1,9 @@
+# Command History to create app
+django-admin startproject Treasuregram
+cd Treasuregram
+python manage.py runserver
+ --> in broswer, navigat to localhost:8000
+python manage.py startapp main
+
+
+
