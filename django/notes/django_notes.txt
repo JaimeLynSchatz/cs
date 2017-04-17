@@ -1,0 +1,12 @@
+# other filters in Django Templates
+
+forloop.counter
+forloop.counter0 # uses a zero-based counter
+forloop.first # returns true if this is the first iteration
+forloop.last # returns true if this is the last iteration
+
+# more tricks
+value | add: 2  # Returns value + 2
+name | lower # returns string in lower case
+
+# can chain together for different results

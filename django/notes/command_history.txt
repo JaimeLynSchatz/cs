@@ -5,5 +5,21 @@ python manage.py runserver
  --> in broswer, navigat to localhost:8000
 python manage.py startapp main
 
+# migrations
+python manage.py makemigrations
+python manage.py sqlmigrate main_app 0001 # to inspect the migration to see what it will do
+python manage.py migrate
+python manage.py migrate
 
+python manage.py shell # to open the interactive shell
 
+# in the interactive shell
+from main_app.models import Treasure
+Treasure.objects.all()
+
+# creating an admin user for the website
+python mangage.py createsuperuser
+
+# then in admin.py
+from .models import Location
+Location.admin.site.register()
