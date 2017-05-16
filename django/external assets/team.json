@@ -1,0 +1,45 @@
+[
+{
+	"model": "www.person",
+	"pk": 1,
+	"fields": {
+		"name": "Adam Fortuna",
+		"title": "Course Director",
+		"email": "adam@codeschool.com",
+		"image": "https://codeschool-directory.s3.amazonaws.com/uploads/member/portrait/12/thumb_0F3A2595.jpg"
+	}
+},
+
+{
+	"model": "www.person",
+	"pk": 2,
+	"fields": {
+		"name": "Pete Seeger",
+		"title": "Course Singer",
+		"email": "pete@codeschool.com",
+		"image": "http://lorempixel.com/200/200"
+	}
+},
+
+{
+	"model": "www.person",
+	"pk": 3,
+	"fields": {
+		"name": "Joy Luck",
+		"title": "Course Director",
+		"email": "adam@codeschool.com",
+		"image": "https://codeschool-directory.s3.amazonaws.com/uploads/member/portrait/12/thumb_0F3A2595.jpg"
+	}
+},
+
+{
+	"model": "www.person",
+	"pk": 4,
+	"fields": {
+		"name": "Barbara Walters",
+		"title": "Course Singer",
+		"email": "pete@codeschool.com",
+		"image": "http://lorempixel.com/200/200"
+	}
+}
+]
